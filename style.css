@@ -93,3 +93,29 @@ header {
     background: var(--primary-color);
     color: white;
 }
+
+.details-text {
+    font-size: 0.85rem;
+    color: #444;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-left: 3px solid var(--primary-color);
+    line-height: 1.6;
+}
+
+.more-btn {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.more-btn:hover {
+    background: #eee;
+}
