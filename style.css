@@ -66,3 +66,30 @@ header {
     line-height: 1.5;
     color: #666;
 }
+
+/* フィルターボタンのスタイル */
+.filter-container {
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background: var(--bg-color);
+    z-index: 100;
+}
+
+.filter-btn {
+    padding: 8px 20px;
+    margin: 5px;
+    border: 2px solid var(--primary-color);
+    background: white;
+    color: var(--primary-color);
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background: var(--primary-color);
+    color: white;
+}
